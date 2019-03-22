@@ -35,7 +35,7 @@
 25. $git checkout master// witch back the master
 26. $git merge devbarnch // you can merge the branch to the master or not
 
-/*about the push. You need to push every time when you change anything. For the master, you need to use :$git push origin in first, after that you can just use  $git push. For the branch, you need to always use $git push origin xxxx(branch name).
+/*about the push. You need to push every time when you change anything. For the master, you need to use :$git push --set-upstream origin master first, after that you can just use  $git push. For the branch, you need to always use $git push origin xxxx(branch name).
 */
 
 
