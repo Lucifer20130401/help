@@ -22,7 +22,7 @@
 15. $ vim test.c   // write a .c file put anything you want into it. And save.
 16. $ git add test.c
 17. $ git commit -m  “this is a test”
-18. $ git push origin master
+18. $ git push origin master// if this not working,showing:"! [rejected]        master -> master (fetch first)" you need to use $git push -f origin master
 
 /*create branch*/
 
