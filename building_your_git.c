@@ -1,16 +1,16 @@
-/*How to build your SW projects in github?*/
+﻿/*How to build your SW projects in github?*/
 
 1. //sign up an account in github.
 2. $ git //check if you have install git in your linux.
 3. $sudo apt-install git  //install git
 4.$ cd ~/.ssh
-	$ ssh-keygen -t ras -C “jingui_w@qq.com”
+	$ ssh-keygen -t rsa -C “jingui_w@qq.com”
 	// this will generate the ssh key in 2 files:  id_rsa  and id_rsa.pub
 5. $ ls -a  # you will see the files you make.
 6. $ cat id_rsa.pub   // open the file and copy the key and past to the git website, your account setting, SSH add.
 7. $ ssh -T git@github.com // test if you have config success: ECHO Hi XXX! You've successfully authenticated, but GitHub does not provide shell access
-8. git config –global user.name “Lucifer20130401”
-9. git config -global user.email “jingui_w@qq.com”
+8. git config –-global user.name “Lucifer20130401”
+9. git config --global user.email “jingui_w@qq.com”
 
 /*create repository*/
 
