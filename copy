@@ -1,0 +1,14 @@
+/*this is to tell how to copy disk to disk*/
+
+before everything begin,I should format the disk first.
+
+1. df -h or sudo fdisk -l to list the storage devices.
+
+2. before everything begin,I should format the disk first.
+   so,asume the device is /dev/sdd1
+	sudo umount /dev/sdd1
+	sudo mkfs.vfat /dev/sdd1 -I
+
+3. dd if=/dev/sda1  of=/dev/sdb1 status=progress   //clone the sda1 to sdb1
+
+
